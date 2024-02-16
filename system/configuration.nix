@@ -8,7 +8,6 @@
   imports =
     [ # Include the results of the hardware scan.
       ./hardware-configuration.nix
-#      <home-manager/nixos>
     ];
 
   # Bootloader.
@@ -25,6 +24,7 @@
 
   nix.settings.experimental-features = [ "nix-command" "flakes"];
 
+  nix.package = pkgs.nixFlakes;
 
   hardware.opengl = {
     enable = true;
@@ -52,7 +52,7 @@
 
   services.fstrim.enable = true;
 
-  networking.hostName = "nixos"; # Define your hostname.
+  networking.hostName = "sam-laptop"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
 
   # Configure network proxy if necessary
@@ -141,8 +141,6 @@
     htop
     neofetch
     firefox
-#    glxinfo
-#    bumblebee
   ];
 
   programs.neovim = {
@@ -157,11 +155,6 @@
     remotePlay.openFirewall = true;
     dedicatedServer.openFirewall = true;
     gamescopeSession.enable = true;
-#    package = pkgs.steam.override {
-#      withJava = true;
-#      withPrimus = true;
-#    };
-#    extraPkgs = pkgs: [ bumblebee glxinfo ];
   };
 
   # Some programs need SUID wrappers, can be configured further or are

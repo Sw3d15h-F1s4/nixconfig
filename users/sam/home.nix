@@ -73,6 +73,4 @@
 
   # Let Home Manager install and manage itself.
   programs.home-manager.enable = true;
-#  programs.home-manager.useUserPackages = true;
-#  programs.home-manager.useGlobalPkgs = true;
 }

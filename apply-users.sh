@@ -1,5 +1,6 @@
 #!/bin/sh
 
 pushd ~/.dotfiles
-home-manager switch -f ./users/sam/home.nix
+nix build .#homeManagerConfigurations.sam.activationPackage
+./result/activate
 popd

@@ -28,7 +28,7 @@
       sam-laptop = lib.nixosSystem {
         inherit system;
 
-	      # Any nix files, like your configuration.nix
+        # Any nix files, like your configuration.nix
         modules = [
           ./system/configuration.nix
         ];

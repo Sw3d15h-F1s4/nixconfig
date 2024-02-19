@@ -27,6 +27,7 @@
     gh
     gimp
     pinentry-qt
+    kicad
   ];
 
   programs.gpg = {

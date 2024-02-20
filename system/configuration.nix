@@ -140,6 +140,10 @@
     neofetch
     firefox
     tmux
+    libreoffice-qt
+    hunspell
+    hunspellDicts.en_US
+    python3
   ];
 
   programs.neovim = {

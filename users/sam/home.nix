@@ -28,6 +28,8 @@
     gimp
     pinentry-qt
     kicad
+    hollywood
+    qalculate-qt
   ];
 
   programs.gpg = {

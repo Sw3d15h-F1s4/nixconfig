@@ -30,7 +30,7 @@
 
         # Any nix files, like your configuration.nix
         modules = [
-          ./system/configuration.nix
+          ./system/sam-laptop.nix
         ];
       };
     };
@@ -39,7 +39,7 @@
       sam = home-manager.lib.homeManagerConfiguration {
         pkgs = nixpkgs.legacyPackages.${system};
         modules = [
-          ./users/sam/home.nix
+          ./users/sam
         ];
       };
     };

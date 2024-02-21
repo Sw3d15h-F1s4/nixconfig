@@ -3,6 +3,6 @@
 {
   imports = [
     ./neovim.nix
-    ./alacritty.nix
+    ./kitty.nix
   ];
 }

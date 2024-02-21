@@ -7,22 +7,21 @@ list of values i need to configure
 
 System Configurations
  - Common to all my computers
-   - users list
-   - partition setup?
-   - bootloader
+   - [done] users list
+   - xxxxxx partition setup?
+   - [done] bootloader
      - grub
      - efi
    - kernel packages
      - linux
-   - nix settings
+   - [done] nix settings
      - allowUnfree
      - allowBroken?
-     - nix.settings.max-jobs = <logical cores>
      - flakes, nix-command
-   - region settings
+   - [done] region settings
      - locale: en_US.UTF-8
      - timeZone = NewYork
-   - security
+   - xxxxxx security
      - sudo: execWheelOnly
      - i dont need ssh, right?
      - why gnome-keyring?
@@ -35,7 +34,7 @@ System Configurations
      - environment shells
        - bash
    - scripts? nah
-   - installed packages
+   - [done] installed packages
      - # common
      - git
      - git-crypt
@@ -65,7 +64,7 @@ System Configurations
      - kicad
      - appimage-run?
      - ...
-   - audio
+   - [done] audio
      - pulse or pipewire?
    - usb
    - firmware
@@ -169,3 +168,6 @@ flake.lock
      -> software.nix
    -> sam-laptop.nix
    -> sam-desktop.nix
+
+
+

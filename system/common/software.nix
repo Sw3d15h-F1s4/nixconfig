@@ -27,6 +27,9 @@
     pciutils
     usbutils
 
+    ripgrep
+    fd
+
     # steam-gamescope
     steam-run
     steam-tui

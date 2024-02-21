@@ -5,7 +5,7 @@
     vscode
     btop
     discord
-    alacritty
+    kitty
     git-crypt
     gnupg
     gh
